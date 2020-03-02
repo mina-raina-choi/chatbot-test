@@ -1,0 +1,27 @@
+/* your css code */
+
+.appHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-shadow: 10px 5px 5px gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  background: white;
+  z-index: 9999;
+  .title {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+
+  .btn {
+    background: yellow;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-left: 10px;
+  }
+}

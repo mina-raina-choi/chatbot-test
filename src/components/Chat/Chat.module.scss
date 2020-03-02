@@ -1,0 +1,43 @@
+/* your css code */
+.chatWrapper {
+  min-height: calc(100vh - 60px);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+
+  .textarea {
+    resize: none;
+    width: 100%;
+    height: 80vh;
+    font-size: 14px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btnWrapper {
+    display: flex;
+    .btn {
+      color: white;
+      font-size: 14px;
+      background: skyblue;
+      border-radius: 5px;
+      padding: 8px 16px;
+    }
+  }
+
+  .controlWrapper {
+    border: 1px solid #333;
+
+    .input {
+      margin: 5px 10px;
+      width: 100%;
+      padding: 4px 8px;
+      font-size: 14px;
+    }
+  }
+}
