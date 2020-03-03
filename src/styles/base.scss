@@ -157,6 +157,7 @@ input {
 button {
   border: none;
   cursor: pointer;
+  padding: unset;
   &:focus {
     outline: none;
   }
